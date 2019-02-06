@@ -238,7 +238,6 @@ Builder.load_string("""
 """)
 
 app = App()
-# Declare both screens
 class MenuScreen(Screen):
     pass
 
@@ -253,7 +252,6 @@ class Quit(Screen):
 class Sobre(Screen):
     pass
 
-# Create the screen manager
 sm = ScreenManager()
 sm.add_widget(MenuScreen(name='menu'))
 sm.add_widget(Quit(name='quit'))
